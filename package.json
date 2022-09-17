@@ -1,0 +1,23 @@
+{
+  "name": "activemqconsoleapi",
+  "version": "1.0.1",
+  "description": "App for consume activemq",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "grupo 7",
+  "license": "MIT",
+  "devDependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "helmet": "^6.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "stomp-client": "^0.9.0",
+    "uuid": "^9.0.0"
+  }
+}
